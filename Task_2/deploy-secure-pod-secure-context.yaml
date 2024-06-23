@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: secure-pod
+spec:
+  containers:
+  - name: secure-container
+    image: alpine:3.18
+    command: ["sh", "-c", "echo 'Hello, secure Kubernetes world!'"]
+    securityContext:
+      runAsUser: 1000        # Non-root user ID
+      runAsGroup: 3000       # Non-root group ID
+      allowPrivilegeEscalation: false
+      capabilities:
+        drop:
+        - ALL
