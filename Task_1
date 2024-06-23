@@ -111,7 +111,7 @@ Lessons Learned:
    - Implement CSMA to create a scalable and flexible security framework that integrates various security tools and technologies.
    - Example: DeepWatch Open Security Architecture, which leverages SIEM, SOAR, cloud logs, EDR, MDR, CSPM, and other tools to provide comprehensive threat detection and response.
 
-11. Continuous Monitoring and Continuous Control Attestation:
+11. Continuous Monitoring, Continuous Compliance, and Continuous Control Attestation:
    - Establish continuous monitoring to detect and respond to threats in real-time.
    - Implement continuous control attestation to ensure ongoing compliance with security policies and standards.
    - Utilize AI-powered continuous risk management tools that combine and leverage data from SIEM, SOAR, cloud logs, EDR, MDR, CSPM, IDS/IPS, DLP, and other sources.
